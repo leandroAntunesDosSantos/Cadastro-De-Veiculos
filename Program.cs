@@ -11,13 +11,13 @@ app.MapGet("/", () =>
 
 app.MapPost("/login", (LoginDto LoginDto) =>
 {
-   if(LoginDto.Email == "adimin@teste.com" && LoginDto.Senha == "123456")
+   if(LoginDto.Email == "admin@teste.com" && LoginDto.Senha == "123456")
    {
-         return "Login efetuado com sucesso!";
+         return Results.Ok("Login efetuado com sucesso!");
     }
     else
     {
-         return "Login ou senha inválidos!";
+         return Results.Unauthorized();
     }
 
 });

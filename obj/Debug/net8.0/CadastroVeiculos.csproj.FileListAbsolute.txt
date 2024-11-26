@@ -31,3 +31,4 @@ C:\Users\leand\OneDrive\Área de Trabalho\NovaApi\CadastroVeiculos\obj\Debug\net
 C:\Users\leand\OneDrive\Área de Trabalho\NovaApi\CadastroVeiculos\obj\Debug\net8.0\CadastroVeiculos.pdb
 C:\Users\leand\OneDrive\Área de Trabalho\NovaApi\CadastroVeiculos\obj\Debug\net8.0\CadastroVeiculos.genruntimeconfig.cache
 C:\Users\leand\OneDrive\Área de Trabalho\NovaApi\CadastroVeiculos\obj\Debug\net8.0\ref\CadastroVeiculos.dll
+C:\Users\leand\OneDrive\Área de Trabalho\NovaApi\CadastroVeiculos\obj\Debug\net8.0\CadastroVeiculos.sourcelink.json
