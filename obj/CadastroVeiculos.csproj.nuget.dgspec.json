@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\leand\\OneDrive\\Área de Trabalho\\NovaApi\\CadastroVeiculos\\CadastroVeiculos.csproj": {}
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\NovaApi\\CadastroVeiculos\\CadastroVeiculos.csproj": {}
   },
   "projects": {
-    "c:\\Users\\leand\\OneDrive\\Área de Trabalho\\NovaApi\\CadastroVeiculos\\CadastroVeiculos.csproj": {
+    "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\NovaApi\\CadastroVeiculos\\CadastroVeiculos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\leand\\OneDrive\\Área de Trabalho\\NovaApi\\CadastroVeiculos\\CadastroVeiculos.csproj",
+        "projectUniqueName": "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\NovaApi\\CadastroVeiculos\\CadastroVeiculos.csproj",
         "projectName": "CadastroVeiculos",
-        "projectPath": "c:\\Users\\leand\\OneDrive\\Área de Trabalho\\NovaApi\\CadastroVeiculos\\CadastroVeiculos.csproj",
+        "projectPath": "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\NovaApi\\CadastroVeiculos\\CadastroVeiculos.csproj",
         "packagesPath": "C:\\Users\\leand\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\leand\\OneDrive\\Área de Trabalho\\NovaApi\\CadastroVeiculos\\obj\\",
+        "outputPath": "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\NovaApi\\CadastroVeiculos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\leand\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -46,6 +46,20 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

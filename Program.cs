@@ -9,7 +9,7 @@ app.MapGet("/", () =>
 });
 
 
-app.MapPost("/login", (LoginDto LoginDto) =>
+app.MapPost("/login", (CadastroVeiculos.Dominio.DTO.LoginDTO LoginDto) =>
 {
    if(LoginDto.Email == "admin@teste.com" && LoginDto.Senha == "123456")
    {
@@ -22,11 +22,8 @@ app.MapPost("/login", (LoginDto LoginDto) =>
 
 });
 
+
+
 app.Run();
 
 
-public class LoginDto
-{
-    public string Email { get; set; } = default!;  // O sinal de exclamação é para indicar que o valor não pode ser nulo
-    public string Senha { get; set; } = default!;
-}
