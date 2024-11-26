@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CadastroVeiculos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd0f64cb1f1a2ec7d4c94f74984fe7037c732aa7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51bcab36bbf1e44e0b36abf89de8b6db4fbd45bd")]
 [assembly: System.Reflection.AssemblyProductAttribute("CadastroVeiculos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CadastroVeiculos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

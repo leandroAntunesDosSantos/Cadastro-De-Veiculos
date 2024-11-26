@@ -1,7 +1,19 @@
+using CadastroVeiculos.Infraestrutura.DB;
+using CadastroVeiculos.Dominio.DTO;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
-var app = builder.Build();
 
+
+builder.Services.AddDbContext<DbContexto>(options => {
+    options.UseMySql(
+        builder.Configuration.GetConnectionString("mysql"),
+        ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("mysql"))
+    );
+});
+
+var app = builder.Build();
 
 app.MapGet("/", () =>
 {
