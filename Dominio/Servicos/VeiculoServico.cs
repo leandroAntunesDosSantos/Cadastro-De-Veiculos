@@ -19,6 +19,12 @@ namespace CadastroVeiculos.Dominio.Servicos
             _contexto = contexto;
         }
 
+        public void Incluir(Veiculo veiculo)
+        {
+            _contexto.Veiculos.Add(veiculo);
+            _contexto.SaveChanges();
+        }
+
         public void Apagar(Veiculo veiculo)
         {
             _contexto.Veiculos.Remove(veiculo);
@@ -39,12 +45,6 @@ namespace CadastroVeiculos.Dominio.Servicos
                 throw new Exception("Veículo não encontrado");
             }
             return veiculo;
-        }
-
-        public void Incluir(Veiculo veiculo)
-        {
-            _contexto.Veiculos.Add(veiculo);
-            _contexto.SaveChanges();
         }
 
         public List<Veiculo> ListarVeiculos(int pagina = 1, string? nome = null, string? marca = null)
