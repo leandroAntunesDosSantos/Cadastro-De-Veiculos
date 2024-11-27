@@ -47,7 +47,7 @@ namespace CadastroVeiculos.Dominio.Servicos
             return veiculo;
         }
 
-        public List<Veiculo> ListarVeiculos(int pagina = 1, string? nome = null, string? marca = null)
+        public List<Veiculo> ListarVeiculos(int pagina, string? nome, string? marca)
         {
             var veiculos = _contexto.Veiculos.AsQueryable();
             if (!string.IsNullOrEmpty(nome))
