@@ -13,7 +13,6 @@
         "packagesPath": "C:\\Users\\leand\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\NovaApi\\CadastroVeiculos\\obj\\",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "C:\\Users\\leand\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
