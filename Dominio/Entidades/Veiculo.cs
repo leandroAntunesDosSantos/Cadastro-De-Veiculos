@@ -1,9 +1,5 @@
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace CadastroVeiculos.Dominio.Entidades
 {
@@ -21,14 +17,14 @@ namespace CadastroVeiculos.Dominio.Entidades
 
         [Required]
         [StringLength(150)]
-        public string Nome { get; set; } = default!;
+        public string Nome { get; set; }
 
         [Required]
         [StringLength(100)]
-        public string Marca { get; set; } = default!;
-        
+        public string Marca { get; set; }
+
         [Required]
-        public int Ano { get; set; } = default!;
+        public int Ano { get; set; }
 
 
     }

@@ -13,6 +13,7 @@
         "packagesPath": "C:\\Users\\leand\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\NovaApi\\CadastroVeiculos\\obj\\",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "C:\\Users\\leand\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -43,6 +44,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.11, )"
