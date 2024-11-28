@@ -3041,13 +3041,12 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\modify\\Api\\CadastroVeiculos.csproj",
+      "projectUniqueName": "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\deploy\\Api\\CadastroVeiculos.csproj",
       "projectName": "CadastroVeiculos",
-      "projectPath": "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\modify\\Api\\CadastroVeiculos.csproj",
+      "projectPath": "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\deploy\\Api\\CadastroVeiculos.csproj",
       "packagesPath": "C:\\Users\\leand\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\modify\\Api\\obj\\",
+      "outputPath": "C:\\Users\\leand\\OneDrive\\Área de Trabalho\\deploy\\Api\\obj\\",
       "projectStyle": "PackageReference",
-      "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
         "C:\\Users\\leand\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
