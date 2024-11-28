@@ -1,19 +1,13 @@
-using System;
-using System.Collections.Generic;
-using System.Data.Common;
-using System.Linq;
-using System.Threading.Tasks;
-using CadastroVeiculos.Dominio.DTO;
 using CadastroVeiculos.Dominio.Entidades;
-using CadastroVeiculos.Dominio.Intefaces;
+using CadastroVeiculos.Dominio.Interfaces;
 using CadastroVeiculos.Infraestrutura.DB;
-using Microsoft.EntityFrameworkCore;
 
 namespace CadastroVeiculos.Dominio.Servicos
 {
     public class VeiculoServico : IVeiculoServico
     {
-        public readonly DbContexto _contexto;
+        private readonly DbContexto _contexto;
+
         public VeiculoServico(DbContexto contexto)
         {
             _contexto = contexto;
@@ -46,6 +40,7 @@ namespace CadastroVeiculos.Dominio.Servicos
             }
             return veiculo;
         }
+
 
         public List<Veiculo> ListarVeiculos(int pagina, string? nome, string? marca)
         {

@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using CadastroVeiculos.Dominio.Entidades;
 using Microsoft.EntityFrameworkCore;
 
@@ -14,7 +10,7 @@ namespace CadastroVeiculos.Infraestrutura.DB
         {
             _configuracaoAppSttings = configuracaoAppSttings;
         }
-       
+
         public DbSet<Administrador> Administradores { get; set; } = default!;
 
         public DbSet<Veiculo> Veiculos { get; set; } = default!;
@@ -37,7 +33,7 @@ namespace CadastroVeiculos.Infraestrutura.DB
         {
             if (!optionsBuilder.IsConfigured)
             {
-                var stringConexao = _configuracaoAppSttings.GetConnectionString("mysql")?.ToString();
+                var stringConexao = _configuracaoAppSttings.GetConnectionString("mysql");
                 if (!string.IsNullOrEmpty(stringConexao))
                 {
                     optionsBuilder.UseMySql(stringConexao, ServerVersion.AutoDetect(stringConexao));
